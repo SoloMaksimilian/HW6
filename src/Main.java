@@ -36,5 +36,6 @@ public class Main {
             i = i + h;
             System.out.println("Месяц " + j + ", сумма накоплений равна " + i + " рублей");
         }
+
     }
 }
