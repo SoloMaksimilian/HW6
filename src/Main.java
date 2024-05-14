@@ -12,5 +12,9 @@ public class Main {
         for (int c = 0; c <= 17; c = c + 2) {
             System.out.println(c);
         }
+
+        for (int d = 10; d >= -10; d--) {
+            System.out.println(d);
+        }
     }
 }
