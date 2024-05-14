@@ -37,5 +37,11 @@ public class Main {
             System.out.println("Месяц " + j + ", сумма накоплений равна " + i + " рублей");
         }
 
+        int l = 0;
+        for (int k = 1; k <= 10; k++) {
+            l = k * 2;
+            System.out.println("2 * " + k + " = " + l);
+        }
+
     }
 }
