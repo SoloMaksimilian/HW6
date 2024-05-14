@@ -16,5 +16,9 @@ public class Main {
         for (int d = 10; d >= -10; d--) {
             System.out.println(d);
         }
+
+        for (int e = 1904; e <= 2096; e = e + 4) {
+            System.out.println(e + " год является високосным");
+        }
     }
 }
