@@ -28,5 +28,12 @@ public class Main {
         for (int g = 1; g <= 512; g = g * 2) {
             System.out.println(g);
         }
+
+        int h = 29000;
+        int i = 0;
+        for (int j = 1; j <= 12; j++) {
+            i = i + h;
+            System.out.println("Месяц " + j + ", сумма накоплений равна " + i + " рублей");
+        }
     }
 }
